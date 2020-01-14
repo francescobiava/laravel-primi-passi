@@ -13,10 +13,12 @@
 
   <div class="container">
 
+    @include('components.header')
+
     @yield('content')
 
   </div>
-  
+
 </body>
 
 </html>

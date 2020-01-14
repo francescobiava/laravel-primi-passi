@@ -1,10 +1,6 @@
 @extends('layouts.basicLayout')
 
 @section('content')
-    <header>
-        <img src="http://pluspng.com/img-png/spotify-logo-png-open-2000.png" alt="">
-    </header>
-
     <div class="cds-container">
         @foreach ($cds as $cd)
             <div class="cd">
